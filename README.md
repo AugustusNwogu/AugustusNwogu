@@ -1,4 +1,4 @@
-<h1>Hi, I'm Augustus! <br/><a href="https://github.com/AugustusNwogu">Programmer</a>, <a href="https://www.linkedin.com/in/augustus-nwogu-23b167267">Cybersecurity Professional</a>
+<h1>Hi, I'm Augustus! <br/><a href="https://github.com/AugustusNwogu">System Administrator</a>, <a href="https://www.linkedin.com/in/augustus-nwogu-23b167267">Cybersecurity Professional</a>
 
 <h2>👨‍💻 System Administrator:</h2>
 
