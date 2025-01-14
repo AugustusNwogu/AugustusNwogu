@@ -12,8 +12,7 @@
 
 <h3> 🤳 Connect with me:</h3>
 
-[<img align="left" alt="AugustusNwogu | GitHub" width="22px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />][github]  
-[<img align="left" alt="AugustusNwogu | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />][linkedin]  
+[<img align="left" alt="AugustusNwogu | GitHub" width="22px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />][github]  [<img align="left" alt="AugustusNwogu | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />][linkedin]  
 
 <br/>
 
