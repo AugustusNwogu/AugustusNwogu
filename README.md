@@ -10,24 +10,12 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
+<h3> 🤳 Connect with me:</h3>
 
-<h3> 🤳 Connect with me:</h2>
+[<img align="left" alt="AugustusNwogu | GitHub" width="22px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />][github]  
+[<img align="left" alt="AugustusNwogu | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />][linkedin]  
 
-[<img align="left" alt="AugustusNwogu | LinkedIn" width="22px" src="https://www.linkedin.com/in/augustusnwogu/" />][linkedin]
+<br/>
 
-[linkedin]: https://linkedin.com/in/joshmadakor
-
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[github]: https://github.com/AugustusNwogu  
+[linkedin]: https://linkedin.com/in/augustusnwogu
