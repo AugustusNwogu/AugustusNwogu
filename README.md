@@ -86,7 +86,6 @@ augustus@cybersec:~$ ls certifications/
 ```
 ✅ CompTIA Security+ — *Issued: July 2025*  
 ✅ Google Cybersecurity Professional Certificate  
-✅ TCM Security: SOC 101 & 201  
 🔄 CompTIA CySA+ — *In Progress, Target: Q2 2026*
 
 ---
