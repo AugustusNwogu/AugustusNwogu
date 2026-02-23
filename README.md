@@ -3,27 +3,33 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/augustusnwogu)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AugustusNwogu)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Nwogu14@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:augustusnwogu.tech@gmail.com)
 
-```ascii
+---
+
+```bash
 ┌──[augustus@cybersec]─[~/portfolio]
 └──╼ $ cat about.txt
 ```
 
-Cybersecurity Analyst with **2.5 years** of experience in enterprise security operations at **Citi Bank**. Specializing in SIEM threat hunting, EDR monitoring, incident response, and identity & access management. Currently defending critical financial infrastructure and improving security posture through automation and threat intelligence.
+Cybersecurity Analyst with **2.5 years of experience** at a global financial institution, specializing in SIEM triage (Splunk), EDR monitoring (CrowdStrike), and Identity & Access Management. Proven ability to manage enterprise-level security alerts while maintaining compliance with NIST-based least-privilege principles.
 
 ---
 
-## 🛡️ Current Role
+## 🛡️ Professional Experience
 
-**IT Analyst** @ Citi Bank  
-`Aug 2025 - Present | Irving, TX`
+### IT Analyst @ Citigroup
+**Aug 2025 – Present | Irving, TX**
+- 🔍 Monitor EDR telemetry and authentication logs in Splunk to detect anomalous login patterns and unauthorized access attempts
+- 🔐 Enforce Principle of Least Privilege (PoLP) through Active Directory auditing, permission management, and endpoint configuration hardening
+- 🚨 Triaged a CVE affecting Windows host devices by correlating Splunk alerts with endpoint telemetry, prioritizing remediation by asset criticality
+- 📊 Improved response times for account-based security alerts by **15%** through standardized SOPs
 
-- 🔍 Monitoring EDR telemetry and authentication logs via **Splunk**
-- 🔐 Enforcing **Principle of Least Privilege** through IAM workflows
-- 🚨 Orchestrating incident response and escalation procedures
-- 📊 Improved alert response times by **15%** through SOP standardization
-- 🔧 Managing vulnerability assessments and patch deployments
+### SOC Support Analyst @ Citigroup
+**Sep 2023 – Aug 2025 | Irving, TX**
+- 🔎 Triaged **100+ daily alerts** across physical and digital security channels
+- 🗂️ Coordinated with IT to synchronize badge access logs with Active Directory for employee offboarding
+- 📋 Documented security incidents and conducted preliminary analysis to ensure audit readiness for financial regulatory compliance
 
 ---
 
@@ -31,51 +37,45 @@ Cybersecurity Analyst with **2.5 years** of experience in enterprise security op
 
 ```python
 skills = {
-    "SIEM & EDR": ["Splunk", "CrowdStrike", "Incident Response"],
-    "Forensics": ["Wireshark", "TCPDump", "CyberChef", "FTK Imager", "Autopsy"],
-    "Infrastructure": ["Active Directory", "Windows Server", "Linux (RHEL)", "TCP/IP"],
-    "Frameworks": ["MITRE ATT&CK", "NIST 800-61", "Vulnerability Management"],
-    "Analysis": ["Phishing Analysis", "Network Forensics", "Log Analysis"]
+    "SIEM & EDR":       ["Splunk", "CrowdStrike", "Incident Response"],
+    "Forensics":        ["Wireshark", "TCPDump", "CyberChef", "FTK Imager", "Autopsy", "Sysinternals"],
+    "Infrastructure":   ["Active Directory (IAM/GPO)", "Windows Server", "Linux (RHEL)", "TCP/IP"],
+    "Frameworks":       ["MITRE ATT&CK", "NIST 800-61", "Vulnerability Management"],
+    "Analysis":         ["Phishing Analysis", "Network Forensics", "Log Analysis", "CVSS Scoring"]
 }
 ```
 
-### 🔧 Tools & Technologies
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![CrowdStrike](https://img.shields.io/badge/CrowdStrike-FF0000?style=flat-square&logo=crowdstrike&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+---
+
+## 🔬 Security Projects
+
+> 📁 Full project details at [github.com/AugustusNwogu](https://github.com/AugustusNwogu)
+
+### 🌐 Network & System Security Implementation
+`Firewall Rules` `IDS` `CIS Hardening` `Network Segmentation`
+
+Configured network segmentation, firewall rules, and IDS in a live lab environment; applied CIS-aligned hardening baselines to reduce attack surface across simulated enterprise infrastructure.
 
 ---
 
-## 🔬 Security Projects & Labs
+### 🎯 Threat Intelligence & Malicious Activity Analysis
+`OSINT` `STIX/TAXII` `MITRE ATT&CK` `Wireshark` `C2 Detection`
 
-### 🎯 SIEM Threat Hunting Lab
-**Skills**: Splunk, Sysmon, SPL Queries, Lateral Movement Detection
-- Configured Windows/Linux environment with Sysmon log ingestion
-- Developed SPL queries to detect credential dumping (LSASS access)
-- Created detection rules for lateral movement techniques
+Hunted threats using OSINT and STIX/TAXII-structured IOCs mapped to MITRE ATT&CK; identified C2 beaconing and lateral movement by correlating Wireshark captures, endpoint telemetry, and behavioral indicators.
 
-### 🎣 Phishing Analysis Pipeline
-**Skills**: Email Analysis, Sandbox Detonation, IOC Extraction
-- Analyzed malicious email headers using CyberChef and Any.run
-- Detonated payloads in controlled sandbox environments
-- Extracted and documented IOCs for firewall blocklisting
+---
 
-### 🌐 Network Forensics Investigation
-**Skills**: Wireshark, PCAP Analysis, C2 Detection
-- Analyzed packet captures to identify command & control traffic
-- Detected data exfiltration over non-standard ports
-- Documented attack patterns and network anomalies
+### 🔍 Vulnerability Scanning, Analysis & Patch Management
+`CVSS` `Credentialed Scans` `Risk Reporting` `Patch Management`
 
-### 📋 MITRE ATT&CK Playbook Development
-**Skills**: Threat Modeling, Detection Engineering
-- Mapped adversary behaviors to MITRE ATT&CK framework
-- Created defensive detection rules and response procedures
-- Developed incident response playbooks for common attack vectors
+Ran credentialed/non-credentialed vulnerability scans and prioritized remediation using CVSS scores and asset criticality, producing risk reports and simulating patch management workflows.
+
+---
+
+### 🚨 Incident Response & Digital Forensics
+`NIST 800-61` `File Carving` `FTK Imager` `Autopsy` `Timeline Reconstruction`
+
+Executed full IR lifecycle per NIST 800-61 — containment through post-incident reporting — and performed forensic evidence acquisition, file carving, and process analysis to reconstruct attacker timelines.
 
 ---
 
@@ -84,59 +84,32 @@ skills = {
 ```bash
 augustus@cybersec:~$ ls certifications/
 ```
-
-✅ **CompTIA Security+**  
-✅ **Google Cybersecurity Professional Certificate**  
-✅ **TCM Security: SOC 101 & 201**  
-🔄 **CompTIA CySA+** *(In Progress - Target: Q2 2026)*
+✅ CompTIA Security+ — *Issued: July 2025*  
+✅ Google Cybersecurity Professional Certificate  
+✅ TCM Security: SOC 101 & 201  
+🔄 CompTIA CySA+ — *In Progress, Target: Q2 2026*
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Science in Information Systems**  
-University of Texas at Arlington | Graduated Dec 2024
-
-## 🎯 Current Focus
-
-```yaml
-learning:
-  - Advanced threat hunting techniques
-  - Security automation with Python
-  - Cloud security (AWS/Azure)
-  - Advanced SIEM analytics
-
-goals:
-  - CompTIA CySA+ certification
-  - Contribute to open-source security tools
-  - Build advanced home lab environments
-  - Share knowledge through technical blog posts
-```
+**B.S. Information Systems**  
+University of Texas at Arlington | *Graduated Dec 2024*
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Let's Connect
 
-```javascript
-const contact = {
-    location: "Arlington, TX",
-    email: "Nwogu14@gmail.com",
-    phone: "+1 (817) 484-7354",
-    linkedin: "linkedin.com/in/augustusnwogu",
-    portfolio: "github.com/AugustusNwogu"
-};
-
-// Always open to discussing cybersecurity, threat hunting, and security automation!
+```json
+{
+  "location": "Arlington, TX",
+  "email": "augustusnwogu.tech@gmail.com",
+  "phone": "+1 (817) 484-7354",
+  "linkedin": "linkedin.com/in/augustusnwogu",
+  "github": "github.com/AugustusNwogu"
+}
 ```
 
----
+> 💡 *"Security is not a product, but a process."* — Bruce Schneier
 
-<div align="center">
-
-### 💡 *"Security is not a product, but a process."* — Bruce Schneier
-
-**⚡ Defending networks, one alert at a time ⚡**
-
-![Profile Views](https://komarev.com/ghpvc/?username=AugustusNwogu&color=00d9ff&style=flat-square)
-
-</div>
+⚡ **Defending networks, one alert at a time** ⚡
