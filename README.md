@@ -1,5 +1,5 @@
 # Hi, I'm Augustus! 👋
-## `$ whoami` → Cybersecurity Analyst | SOC Operations | Threat Hunter
+## `$ whoami` → Technical Support Engineer | Zero Trust & IAM
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/augustusnwogu)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:augustusnwogu.tech@gmail.com)
@@ -7,24 +7,33 @@
 ---
 
 ```bash
-┌──[augustus@cybersec]─[~/portfolio]
+┌──[augustus@primary]─[~/portfolio]
 └──╼ $ cat about.txt
 ```
 
-Cybersecurity Analyst with **2.5 years of experience** at a global financial institution, specializing in SIEM triage (Splunk), EDR monitoring (CrowdStrike), and Identity & Access Management. Proven ability to manage enterprise-level security alerts while maintaining compliance with NIST-based least-privilege principles.
+Technical Support Engineer with **2.5+ years** supporting enterprise users at a global financial institution, now focused on **Zero Trust architecture, Identity & Access Management, and enterprise browser security**. I bridge deep technical troubleshooting with customer-facing communication — diagnosing identity, authentication, and endpoint issues across complex, regulated environments.
+
+Currently leveling up on **Chromium internals, IAM protocols (OAuth 2.0, SAML, OIDC), and AWS Security** as I transition into enterprise browser and Zero Trust support.
 
 ---
 
 ## 🛡️ Professional Experience
 
-### IT Analyst @ Citigroup
-**Aug 2025 – Present | Irving, TX**
-- 🔍 Monitor EDR telemetry and authentication logs in Splunk to detect anomalous login patterns and unauthorized access attempts
-- 🔐 Enforce Principle of Least Privilege (PoLP) through Active Directory auditing, permission management, and endpoint configuration hardening
-- 🚨 Triaged a CVE affecting Windows host devices by correlating Splunk alerts with endpoint telemetry, prioritizing remediation by asset criticality
+### Technical Support Engineer @ Private
+**May 2026 – Present | Remote**
+- 🌐 Support enterprise customers deploying a browser for Zero Trust access to SaaS and internal applications
+- 🔐 Troubleshoot IAM integrations across Microsoft Entra ID, Okta, and other IdPs — diagnosing SAML, OIDC, and OAuth 2.0 flows
+- 🧩 Investigate browser-level policy enforcement, extension behavior, and Chromium-based configuration issues
+- 📝 Partner with engineering to reproduce, document, and resolve customer-reported issues end-to-end
+
+### IT Analyst @ Citigroup *(via CompuCom)*
+**Aug 2025 – May 2026 | Irving, TX**
+- 🔍 Monitored EDR telemetry and authentication logs in Splunk to detect anomalous login patterns and unauthorized access attempts
+- 🔐 Enforced Principle of Least Privilege (PoLP) through Active Directory auditing, permission management, and endpoint configuration hardening
+- 👥 Led a two-week campus readiness initiative, coordinating 6 contractors to prepare enterprise endpoints for deployment
 - 📊 Improved response times for account-based security alerts by **15%** through standardized SOPs
 
-### SOC Support Analyst @ Citigroup
+### SOC Support Analyst @ Citigroup *(via CompuCom)*
 **Sep 2023 – Aug 2025 | Irving, TX**
 - 🔎 Triaged **100+ daily alerts** across physical and digital security channels
 - 🗂️ Coordinated with IT to synchronize badge access logs with Active Directory for employee offboarding
@@ -36,56 +45,34 @@ Cybersecurity Analyst with **2.5 years of experience** at a global financial ins
 
 ```python
 skills = {
-    "SIEM & EDR":       ["Splunk", "CrowdStrike", "Incident Response"],
-    "Forensics":        ["Wireshark", "TCPDump", "CyberChef", "FTK Imager", "Autopsy", "Sysinternals"],
-    "Infrastructure":   ["Active Directory (IAM/GPO)", "Windows Server", "Linux (RHEL)", "TCP/IP"],
-    "Frameworks":       ["MITRE ATT&CK", "NIST 800-61", "Vulnerability Management"],
-    "Analysis":         ["Phishing Analysis", "Network Forensics", "Log Analysis", "CVSS Scoring"]
+    "Identity & Access":   ["Microsoft Entra ID", "Active Directory", "OAuth 2.0", "SAML", "OIDC", "MFA/SSO"],
+    "Zero Trust":          ["NIST SP 800-207", "Conditional Access", "Least Privilege", "Policy Enforcement"],
+    "Browser & Endpoint":  ["Chromium Architecture", "Enterprise Browser Policies", "SCCM", "Endpoint Hardening"],
+    "Support Engineering": ["ServiceNow", "Incident Triage", "Root Cause Analysis", "Customer Communication"],
+    "Observability":       ["Splunk", "CrowdStrike", "Log Analysis", "Wireshark"],
+    "Platforms":           ["Windows Server", "Linux", "PowerShell", "TCP/IP Networking"],
+    "Cloud (Learning)":    ["AWS IAM", "AWS Security Specialty (in progress)"]
 }
 ```
 
 ---
 
-## 🔬 Security Projects
+## 🚀 Focus Projects
 
 > 📁 Full project details at [github.com/AugustusNwogu](https://github.com/AugustusNwogu)
 
-### 🌐 Network & System Security Implementation
-`Firewall Rules` `IDS` `CIS Hardening` `Network Segmentation`
-
-Configured network segmentation, firewall rules, and IDS in a live lab environment; applied CIS-aligned hardening baselines to reduce attack surface across simulated enterprise infrastructure.
-
----
-
-### 🎯 Threat Intelligence & Malicious Activity Analysis
-`OSINT` `STIX/TAXII` `MITRE ATT&CK` `Wireshark` `C2 Detection`
-
-Hunted threats using OSINT and STIX/TAXII-structured IOCs mapped to MITRE ATT&CK; identified C2 beaconing and lateral movement by correlating Wireshark captures, endpoint telemetry, and behavioral indicators.
-
----
-
-### 🔍 Vulnerability Scanning, Analysis & Patch Management
-`CVSS` `Credentialed Scans` `Risk Reporting` `Patch Management`
-
-Ran credentialed/non-credentialed vulnerability scans and prioritized remediation using CVSS scores and asset criticality, producing risk reports and simulating patch management workflows.
-
----
-
-### 🚨 Incident Response & Digital Forensics
-`NIST 800-61` `File Carving` `FTK Imager` `Autopsy` `Timeline Reconstruction`
-
-Executed full IR lifecycle per NIST 800-61 — containment through post-incident reporting — and performed forensic evidence acquisition, file carving, and process analysis to reconstruct attacker timelines.
 
 ---
 
 ## 📜 Certifications
 
 ```bash
-augustus@cybersec:~$ ls certifications/
+augustus@Learning:~$ ls certifications/
 ```
-✅ CompTIA Security+ — *Issued: July 2025*  
+✅ CompTIA Security+ (SY0-701) — *July 2025*  
 ✅ Google Cybersecurity Professional Certificate  
-🔄 CompTIA CySA+ — *In Progress, Target: Q2 2026*
+🎯 **In Progress:** AWS SAA 
+🎯 **Roadmap:** AWS Certified Security – Specialty  
 
 ---
 
@@ -102,12 +89,12 @@ University of Texas at Arlington | *Graduated Dec 2024*
 {
   "location": "Arlington, TX",
   "email": "augustusnwogu.tech@gmail.com",
-  "phone": "+1 (817) 484-7354",
   "linkedin": "linkedin.com/in/augustusnwogu",
-  "github": "github.com/AugustusNwogu"
+  "github": "github.com/AugustusNwogu",
+  "open_to": ["Zero Trust discussions", "IAM deep-dives", "Browser security"]
 }
 ```
 
-> 💡 *"Security is not a product, but a process."* — Bruce Schneier
+> 💡 *"Never trust, always verify."* — Zero Trust Principle
 
-⚡ **Defending networks, one alert at a time** ⚡
+⚡ **Securing the enterprise, one session at a time** ⚡
