@@ -72,7 +72,6 @@ augustus@Learning:~$ ls certifications/
 ✅ CompTIA Security+ (SY0-701) — *July 2025*  
 ✅ Google Cybersecurity Professional Certificate  
 🎯 **In Progress:** AWS SAA 
-🎯 **Roadmap:** AWS Certified Security – Specialty  
 
 ---
 
